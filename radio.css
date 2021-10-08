@@ -29,7 +29,7 @@ body{
 .customRadio input[type="radio"]+label:before {
     content: '';
     background: #fff;
-    border: 2px solid rgb(23, 43, 224);
+    border: 2px solid rgb(218, 222, 252);
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -51,15 +51,23 @@ body{
     transform: scale(1);
     transition: transform 0.3s linear, opacity 0.3s linear
 }
+.customRadio input[type="radio"]:checked +label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid rgb(23, 43, 224);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
 
 .customRadio input[type="radio"]:checked+label:after {
     opacity: 1;
-    transform: scale(1)
+    transform: scale(1);
 }
-<<<<<<< HEAD
 .customRadio input[type="radio"]:hover+label:after {
     opacity: 1;
-    transform: scale(1)
+    transform: scale(1);
 }
-=======
->>>>>>> 2cff5d3baef916b7ee2a900f08474a8f20469dcf
