@@ -56,3 +56,7 @@ body{
     opacity: 1;
     transform: scale(1)
 }
+.customRadio input[type="radio"]:hover+label:after {
+    opacity: 1;
+    transform: scale(1)
+}
