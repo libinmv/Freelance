@@ -23,7 +23,7 @@ body{
     position: relative;
     padding: 0px 0 0 25px;
     cursor: pointer;
-    padding-right: 60px;
+    margin-right: 60px;
 }
 
 .customRadio input[type="radio"]+label:before {
