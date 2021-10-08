@@ -56,10 +56,9 @@ body{
     opacity: 1;
     transform: scale(1)
 }
-<<<<<<< HEAD
+
 .customRadio input[type="radio"]:hover+label:after {
     opacity: 1;
     transform: scale(1)
 }
-=======
->>>>>>> 2cff5d3baef916b7ee2a900f08474a8f20469dcf
+
