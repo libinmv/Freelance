@@ -13,39 +13,89 @@
 <body>
     <div class="topnav">
         <div class="topnav-right">
-            <button class="mdc-button mdc-button--touch" onclick="myFunction()">
-                <span class="material-icons dropbtn">
-                    help_outline
-                </span>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="#">Link 1</a>
+            <div>
+                <button class="mdc-button mdc-button--touch" onclick="help()">
+                    <span class="material-icons ">
+                        help_outline
+                    </span>
+                </button>
+            </div>
+            <div class="dropdown1">
+                <button class="mdc-button mdc-button--touch" onclick="settings()">
+                    <span class="material-icons ">
+                        settings
+                    </span>
+                </button>
+                <div id="settings" class="dropdown-content settingsdrop">
+                    <div class="prof dropbtn btn">
+                        <p><span class="material-icons subIcons">
+                                settings
+                            </span>Setting1</p>
+                    </div>
+                    <div class="prof dropbtn btn">
+                        <p><span class="material-icons subIcons">
+                                settings
+                            </span>Setting2</p>
+                    </div>
                 </div>
-            </button>
-            <button class="mdc-button mdc-button--touch" onclick="myFunction()">
-                <span class="material-icons dropbtn">
-                    settings
-                </span>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="#">Link 1</a>
+            </div>
+            <div class="dropdown2">
+                <button class="mdc-button mdc-button--touch dropbtn" onclick="apps()">
+                    <span class="material-icons dropbtn">
+                        apps
+                    </span>
+                </button>
+                <div id="apps" class="dropdown-content appsdrop">
+                    <div class="prof prof1 dropbtn btn">
+                        <p><span class="material-icons subIcons">
+                                person
+                            </span>App1</p>
+                    </div>
+                    <div class="prof setting dropbtn btn">
+                        <p><span class="material-icons subIcons">
+                                settings
+                            </span>App2</p>
+                    </div>
+                    <div class="prof log dropbtn btn">
+                        <p><span class="material-icons subIcons">
+                                logout
+                            </span>App3</p>
+                    </div>
                 </div>
-            </button>
-            <button class="mdc-button mdc-button--touch" onclick="myFunction()">
-                <span class="material-icons dropbtn">
-                    apps
-                </span>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="#">Link 1</a>
+            </div>
+            <div class="dropdown3">
+                <button class="dropbtn" onclick="profile()">
+                    <span class="icon dropbtn"></span>
+                </button>
+                <div id="profile" class="dropdown-content profiledrop">
+                    <div class="profilePic">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1L9seK_TtCfhGsdMdfbnVpYSdteKraqg2zA&usqp=CAU"
+                            alt="Profile Picture">
+                        <p class="name">
+                            John Doe
+                        </p>
+                    </div>
+                    <div class="prof prof1 dropbtn btn" role="button">
+                        <p><span class="material-icons subIcons">
+                                person
+                            </span>Profile</p>
+                    </div>
+                    <div class="prof setting dropbtn btn">
+                        <p><span class="material-icons subIcons">
+                                settings
+                            </span>Settings</p>
+                    </div>
+                    <div class="prof log dropbtn btn">
+                        <p><span class="material-icons log">
+                                logout
+                            </span>Log out</p>
+                    </div>
                 </div>
-            </button>
-            <button class="mdc-button mdc-button--touch dropbtn " onclick="myFunction()">
-                <span class="icon dropbtn">U</span>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="#">Link 1</a>
-                </div>
-            </button>
+            </div>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src=dashboard.js></script>
 </body>
 
